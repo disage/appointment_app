@@ -1,4 +1,6 @@
 #dateSlider {
+    min-height: 86px;
+
     .swiper-slide-active {
         background: #f0fbff;
         border: 1px solid #33bde4;
@@ -12,10 +14,8 @@
     ion-slide {
         display: flex;
         flex-direction: column;
-        .selectedDate {
-            background: red !important;
-        }
         span {
+            display: flex;
             font-size: 16px;
             margin-bottom: 4px;
             b {
