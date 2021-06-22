@@ -1,0 +1,58 @@
+* {
+    color: #5b5b5b;
+    ion-app {
+        justify-content: start !important;
+        align-items: center !important;
+        .ion-page {
+            display: flex;
+            justify-content: start !important;
+            background: #fff;
+            padding: 0 16px;
+            .dateSliderHeader {
+                display: flex;
+                justify-content: space-between;
+                padding: 0 18px 0 0;
+                font-size: 16px;
+                margin-top: 50px;
+                .iconsWrapper {
+                    svg:first-child {
+                        margin-right: 12px;
+                    }
+                }
+            }
+            .makeAnAppointment {
+                display: flex;
+                flex-direction: column;
+                border: 1px solid #edeff2;
+                box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.04);
+                border-radius: 4px;
+                padding: 24px 12px;
+                .dateTime {
+                    display: flex;
+                    justify-content: space-between;
+                    .dateData,
+                    .timeData {
+                        display: flex;
+                        flex-direction: column;
+                        width: 50%;
+                        align-items: center;
+                        font-size: 16px;
+                        b {
+                            font-size: 20px;
+                            color: #1d201f;
+                        }
+                    }
+                    .divider {
+                        width: 2px;
+                        height: 100%;
+                        background: #e5e5e5;
+                    }
+                }
+            }
+            .sudmitBtn {
+                margin-top: 16px;
+                font-size: 12px;
+            }
+        }
+    }
+}

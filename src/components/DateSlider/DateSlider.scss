@@ -1,0 +1,27 @@
+#dateSlider {
+    .swiper-slide-active {
+        background: #f0fbff;
+        border: 1px solid #33bde4;
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.04);
+        border-radius: 6px;
+        span,
+        b {
+            color: #33bde4 !important;
+        }
+    }
+    ion-slide {
+        display: flex;
+        flex-direction: column;
+        .selectedDate {
+            background: red !important;
+        }
+        span {
+            font-size: 16px;
+            margin-bottom: 4px;
+            b {
+                font-size: 24px;
+                color: #1d201f;
+            }
+        }
+    }
+}
